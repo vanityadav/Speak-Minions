@@ -37,41 +37,18 @@ button {
   background-color: #feda72;
   border: none;
   border-radius: 1vh;
-  box-shadow: 0 0 1vh rgba(0, 0, 0, 0.3);
-  transition: transform 500ms ease-in-out;
+  transition: 0.5s ease-in-out;
   margin: 2vh;
 }
 button:hover {
   transform: scale(102%);
+  box-shadow: 0 0 1vh rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
-/* button:active {
+button:active {
   background-color: aquamarine;
 }
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
 
-.button span::before {
-  content: "\00bb";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span::before {
-  opacity: 1;
-  right: 0;
-} */
 div {
   padding: 2vh;
   border: 2px solid;
