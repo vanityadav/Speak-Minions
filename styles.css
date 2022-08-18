@@ -65,13 +65,11 @@ div {
 @keyframes minionsrise {
   from {
     transform: scale(0) translateY(250px);
-
     opacity: 0;
   }
 
   to {
     transform: scale(100%) translateY(0);
-
     opacity: 1;
   }
 }
