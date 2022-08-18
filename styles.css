@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "MODERNA";
+  src: url("MODERNA_.TTF");
+}
+body,
+div,
+button,
+input {
+  font-family: MODERNA;
+  color: #175992;
+  padding: 0;
+  margin: 0;
+  font-size: 2vh;
+}
+header {
+  background-color: #feda72;
+  padding: 4vh;
+  font-size: 5vh;
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 5vh;
+  align-items: center;
+}
+input {
+  padding: 2vh;
+  width: 80%;
+  height: 15vh;
+  align-items: center;
+  text-align: center;
+}
+button {
+  padding: 1vh;
+  width: 20vh;
+  background-color: #feda72;
+  border: none;
+  border-radius: 1vh;
+  box-shadow: 0 0 1vh rgba(0, 0, 0, 0.3);
+  transition: transform 500ms ease-in-out;
+  margin: 2vh;
+}
+button:hover {
+  transform: scale(102%);
+  cursor: pointer;
+}
+/* button:active {
+  background-color: aquamarine;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span::before {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span::before {
+  opacity: 1;
+  right: 0;
+} */
+div {
+  padding: 2vh;
+  border: 2px solid;
+  width: 80%;
+  height: 15vh;
+  text-align: center;
+}
+footer {
+  background-color: #feda72;
+  padding: 2vh;
+  word-wrap: none;
+  font-size: 3vh;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
