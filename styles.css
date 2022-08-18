@@ -2,6 +2,7 @@
   font-family: "MODERNA";
   src: url("MODERNA_.TTF");
 }
+
 body,
 div,
 button,
@@ -84,4 +85,10 @@ footer {
   bottom: 0px;
   left: 0px;
   right: 0px;
+}
+@media screen and (max-width: 700px) {
+  header,
+  footer {
+    font-size: 20px;
+  }
 }
