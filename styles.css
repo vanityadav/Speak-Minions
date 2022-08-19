@@ -20,6 +20,7 @@ header {
   text-align: center;
 }
 main {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   margin: 5vh;
@@ -64,12 +65,12 @@ div {
 }
 @keyframes minionsrise {
   from {
-    transform: scale(0) translateY(250px);
+    transform: translateY(250px);
     opacity: 0;
   }
 
   to {
-    transform: scale(100%) translateY(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
